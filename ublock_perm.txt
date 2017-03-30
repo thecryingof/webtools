@@ -3,3 +3,4 @@ d3.ru##.b-sidebar__container
 d3.ru##.b-post-cut_ad_true
 ! d3.ru##.b-domain-name__logo
 ! d3.ru##.b-post_domain-icon
+d3.ru##.b-promo__placeholder
