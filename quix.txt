@@ -13,8 +13,8 @@ aa      http://anonymouse.org/cgi-bin/anon-www.cgi/%s		Anonymouse-with-URL
 
 @Search Tools
 d               https://duckduckgo.com/?q=%s&kp=-1&kl=us-en&ki=-1&kz=1&kc=1&kb=n&kn=1&kj=w&ku=1&ke=-1&k1=-1&k4=-1        DuckDuckGo
-g               https://encrypted.google.com/search?q=%s&tbo=1&pws=0		Google Search
-г               https://encrypted.google.com/search?q=%s&tbo=1&pws=0		Google Search
+g               https://encrypted.google.com/search?q=%s&tbo=1&pws=0&gl=us&gws_rd=cr		Google Search
+г               https://encrypted.google.com/search?q=%s&tbo=1&pws=0&gl=us&gws_rd=cr		Google Search
 x               https://ixquick.com/do/dsearch?query=%s         iXquick
 gd              https://www.google.com/search?q=%s      Google Default
 гд              https://www.google.com/search?q=%s      Google Default
