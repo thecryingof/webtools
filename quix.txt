@@ -7,8 +7,8 @@
 
 @Open
 §               http://www.%s                                                                                                           OpenURL
-a               http://anonymouse.org/cgi-bin/anon-www.cgi/%r                                                                           Anonymouse
-aa              http://anonymouse.org/cgi-bin/anon-www.cgi/%s                                                                           AnonymouseWithURL
+a               https://anonymouse.org/cgi-bin/anon-www.cgi/%r                                                                           Anonymouse
+aa              https://anonymouse.org/cgi-bin/anon-www.cgi/%s                                                                           AnonymouseWithURL
 
 @Search-main
 d               https://duckduckgo.com/?q=%s&kp=-1&kl=us-en&ki=-1&kz=1&kc=1&kb=n&kn=1&kj=w&ku=1&ke=-1&k1=-1&k4=-1                       DuckDuckGo
@@ -21,41 +21,41 @@ cache           javascript:location.href='http://webcache.googleusercontent.com/
 archive         https://web.archive.org/web/*/%r                                                                                        ArchiveSearch
 def             https://www.google.com/search?q=define:%s                                                                               GoogleDefine
 gtr             https://translate.google.com/#auto/en/%s                                                                                GoogleTranslate
-ud              http://www.urbandictionary.com/define.php?term=%s                                                                       UrbanDict
-l               http://www.multitran.ru/c/m.exe?l1=1&l2=2&s=%s                                                                          Lingvo
-л               http://www.multitran.ru/c/m.exe?l1=1&l2=2&s=%s                                                                          Lingvo
-grm             http://gramota.ru/slovari/dic/?word=%s&all=x                                                                            GramotaRu
+ud              https://www.urbandictionary.com/define.php?term=%s                                                                      UrbanDict
+l               https://www.multitran.ru/c/m.exe?l1=1&l2=2&s=%s                                                                         Lingvo
+л               https://www.multitran.ru/c/m.exe?l1=1&l2=2&s=%s                                                                         Lingvo
+grm             https://gramota.ru/slovari/dic/?word=%s&all=x                                                                           GramotaRu
 maps            https://maps.google.com/maps?q=%s                                                                                       GoogleMapsSearch
-mapl            http://maps.lt/map/default.aspx?q=%s                                                                                    MapsLtSearch
+mapl            https://maps.lt/map/default.aspx?q=%s                                                                                   MapsLtSearch
 yt              https://www.youtube.com/results?search_query=%s                                                                         YouTube Search
 img             https://encrypted.google.com/images?q=%s&pws=0                                                                          GoogleImageSearch
 имг             https://encrypted.google.com/images?q=%s&pws=0                                                                          GoogleImageSearch
 himg            https://www.google.com/search?q=%s&as_st=y&hl=en&biw=981&bih=619&site=imghp&tbs=isz:lt,islt:2mp,iar:w,imgo:1&tbm=isch&source=lnt&sa=X&ei=hAimVIScCcupNvKdgtAF&ved=0CBUQpwU&bav=on.2,or.r_cp.r_qf.&bvm=bv.82001339,d.eXY&dpr=2                    GoogleHiResImageSearch
 
 @Search-other
-wa              http://www.wolframalpha.com/input/?i=%s                                                                                 WolframAlpha
-b               http://bing.com/search?q=%s                                                                                             Bing
-ya              http://www.yandex.ru/yandsearch?text=%s                                                                                 YandexSearch
-fin             http://finance.yahoo.com/q?s=%s                                                                                         YahooFinance
-fiz             http://finviz.com/quote.ashx?t=%s                                                                                       FinViz
+wa              https://www.wolframalpha.com/input/?i=%s                                                                                WolframAlpha
+b               https://bing.com/search?q=%s                                                                                            Bing
+ya              https://www.yandex.ru/yandsearch?text=%s                                                                                YandexSearch
+fin             https://finance.yahoo.com/q?s=%s                                                                                        YahooFinance
+fiz             https://finviz.com/quote.ashx?t=%s                                                                                      FinViz
 fit             https://www.tradingview.com/chart/?symbol=%s                                                                            TradingView
-rub             http://www.finam.ru/analysis/profile2C8800000B/?market=45                                                               RussianRouble
-oil             http://www.bloomberg.com/quote/CO1:COM                                                                                  Brent@ICE
-rbc             http://quote.rbc.ru/exchanges/overview/                                                                                 RBC
-imdb            http://www.imdb.com/find?s=all&q=%s                                                                                     IMDBSearch
+rub             https://www.finam.ru/analysis/profile2C8800000B/?market=45                                                              RussianRouble
+oil             https://www.bloomberg.com/quote/CO1:COM                                                                                 Brent@ICE
+rbc             https://quote.rbc.ru/exchanges/overview/                                                                                RBC
+imdb            https://www.imdb.com/find?s=all&q=%s                                                                                    IMDBSearch
 subs            http://www.opensubtitles.org/en/search2?MovieName=%s&SubLanguageID=eng                                                  OpenSubtitles
 subst           http://www.addic7ed.com/search.php?search=%s                                                                            Addic7ed
-disc            http://www.discogs.com/search/?q=%s&action=Go&type=all                                                                  DiscogsSearch
-wi              http://wikipedia.org/wiki/Special:Search/%s_                                                                            WikipediaSearch
-wia             http://www.google.com/advanced_search?q=%s+site:wikipedia.org&num=100                                                   WikipediaAdvancedSearchViaGoogle
-wiru            http://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5:Search?search=%s        WikipediaRuSearch
-жиру            http://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5:Search?search=%s        WikipediaRuSearch
-цшкг            http://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5:Search?search=%s        WikipediaRuSearch
+disc            https://www.discogs.com/search/?q=%s&action=Go&type=all                                                                 DiscogsSearch
+wi              https://wikipedia.org/wiki/Special:Search/%s_                                                                           WikipediaSearch
+wia             https://www.google.com/advanced_search?q=%s+site:wikipedia.org&num=100                                                  WikipediaAdvancedSearchViaGoogle
+wiru            https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5:Search?search=%s       WikipediaRuSearch
+жиру            https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5:Search?search=%s       WikipediaRuSearch
+цшкг            https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5:Search?search=%s       WikipediaRuSearch
 gsm             http://www.gsmarena.com/results.php3?sourceid=Mozilla-search&sQuickSearch=yes&sName=%s                                  GSMArena
-eb              http://shop.ebay.com/?_nkw=%s&_sacat=See-All-Categories                                                                 eBay
-ebuk            http://shop.ebay.co.uk/?_nkw=%s&_sacat=See-All-Categories                                                               eBayUK
-sk              http://www.skelbiu.lt/skelbimai/?keywords=%s&submit=&city[]=0&cities=0                                                  Skelbiu
-wine            http://www.wine-searcher.com/find/%s                                                                                    Wine
+eb              https://shop.ebay.com/?_nkw=%s&_sacat=See-All-Categories                                                                eBay
+ebuk            https://shop.ebay.co.uk/?_nkw=%s&_sacat=See-All-Categories                                                              eBayUK
+sk              https://www.skelbiu.lt/skelbimai/?keywords=%s&submit=&city[]=0&cities=0                                                 Skelbiu
+wine            https://www.wine-searcher.com/find/%s                                                                                   Wine
 
 @Social
 fk              https://www.facebook.com/?sk=h_chr                                                                                      Facebook
@@ -70,14 +70,14 @@ tw              javascript:location.href='http://twitter.com/share?url='+encodeU
 
 @Services
 ps              javascript:(function(){ISRIL_H='e17f';PKT_D='getpocket.com';ISRIL_SCRIPT=document.createElement('SCRIPT');ISRIL_SCRIPT.type='text/javascript';ISRIL_SCRIPT.src='http://'+PKT_D+'/b/r.js';document.getElementsByTagName('head')[0].appendChild(ISRIL_SCRIPT)})();        Save to Pocket
-pl              http://getpocket.com/a/queue/list/      Pocket
+pl              https://getpocket.com/a/queue/list/      Pocket
 
 @Downloads
 lib             http://www.oldmaglib.com/                                                                                               OldMagLib
-gbf             http://flibusta.is/booksearch?ask=%s                                                                                    FlibustaSearch
-гбф             http://flibusta.is/booksearch?ask=%s                                                                                    FlibustaSearch
-tb              http://thepiratebay.org/search/%s                                                                                       ThePirateBay
-rt              http://rutracker.org/forum/tracker.php?nm=%s                                                                            RuTracker
+gbf             https://flibusta.is/booksearch?ask=%s                                                                                   FlibustaSearch
+гбф             https://flibusta.is/booksearch?ask=%s                                                                                   FlibustaSearch
+tb              https://thepiratebay.org/search/%s                                                                                      ThePirateBay
+rt              https://rutracker.org/forum/tracker.php?nm=%s                                                                           RuTracker
 f               http://rutor.is/                                                                                                        RuTor
 free            http://rutor.is/search/0/0/000/0/%s                                                                                     RuTorSearch
 yad             https://disk.yandex.ru/                                                                                                 YandexDisk
@@ -85,13 +85,13 @@ up              https://drop.me/                                                
 
 @Tools
 time            http://everytimezone.com/#2012-8-13,-375,6be                                                                            TimeZones
-myip            http://infornography.kpoxa.org/personal/s/tmp/devel/python/myip/                                                        DetectIP
-mysp            http://infornography.kpoxa.org/personal/s/tmp/devel/python/myip/myspeed/                                                DetectSpeed
-host            http://network-tools.com/default.asp?prog=whois&host=%d                                                                 HostInfo
-whois           http://network-tools.com/default.asp?prog=whois&host=%s                                                                 Whois
-ping            http://network-tools.com/default.asp?prog=ping&host=%s                                                                  Ping
-lookup          http://network-tools.com/default.asp?prog=lookup&host=%s                                                                Lookup
-traceroute      http://network-tools.com/default.asp?prog=trace&host=%s                                                                 Traceroute
+myip            https://infornography.kpoxa.org/personal/s/tmp/devel/python/myip/                                                        DetectIP
+mysp            https://infornography.kpoxa.org/personal/s/tmp/devel/python/myip/myspeed/                                                DetectSpeed
+host            https://network-tools.com/default.asp?prog=whois&host=%d                                                                 HostInfo
+whois           https://network-tools.com/default.asp?prog=whois&host=%s                                                                 Whois
+ping            https://network-tools.com/default.asp?prog=ping&host=%s                                                                  Ping
+lookup          https://network-tools.com/default.asp?prog=lookup&host=%s                                                                Lookup
+traceroute      https://network-tools.com/default.asp?prog=trace&host=%s                                                                 Traceroute
 down            http://downforeveryoneorjustme.com/%d                                                                                   IsSiteDown
 fake            http://www.fakenamegenerator.com/advanced.php                                                                           FakeId
 
@@ -119,31 +119,30 @@ til             https://www.reddit.com/r/todayilearned/                         
 тил             https://www.reddit.com/r/todayilearned/                                                                                 TIL
 > sport
 mu              http://manutd.ru                                                                                                        MU
-goc             http://news.bbc.co.uk/sport2/hi/football/default.stm                                                                    BBCFootball
+goc             https://news.bbc.co.uk/sport2/hi/football/default.stm                                                                    BBCFootball
 gog             http://m.espn.go.com/soccer/scoreboard?lang=EN&wjb                                                                      Results
-tv              http://livetv.sx/allupcoming/                                                                                           TV
-тв              http://livetv.sx/allupcoming/                                                                                           TV
+got             http://livetv.sx/allupcoming/                                                                                           TV
 > other
-n               http://infornography.kpoxa.org/personal/s/tmp/klds/                                                                     KLDS
-н               http://infornography.kpoxa.org/personal/s/tmp/klds/                                                                     KLDS
+n               https://infornography.kpoxa.org/personal/s/tmp/klds/                                                                     KLDS
+н               https://infornography.kpoxa.org/personal/s/tmp/klds/                                                                     KLDS
 grd             http://guardian.gyford.com/                                                                                             Guardian @ Gyford
-ti              http://lj.rossia.org/users/tiphareth/friends                                                                            TipharethWithFriends
-mc              http://john1d0e.livejournal.com/friends                                                                                 MyMacRu
-мц              http://john1d0e.livejournal.com/friends                                                                                 MyMacRu
+ti              https://lj.rossia.org/users/tiphareth/friends                                                                            TipharethWithFriends
+mc              https://john1d0e.livejournal.com/friends                                                                                 MyMacRu
+мц              https://john1d0e.livejournal.com/friends                                                                                 MyMacRu
 mp              http://mypsion.ru/webboard/boardsearch.php?days=2                                                                       MyPsionRu
 мп              http://mypsion.ru/webboard/boardsearch.php?days=2                                                                       MyPsionRu
 vlns            http://vilnius-events.lt/                                                                                               Vilnius
-w               http://www.yr.no/place/Lithuania/Vilnius/Vilnius/hour_by_hour_detailed.html                                             Weather
+w               https://www.yr.no/place/Lithuania/Vilnius/Vilnius/hour_by_hour_detailed.html                                             Weather
 ww              http://www.meteo.lt/lt_LT/miestas?placeCode=Vilnius                                                                     Weather2
 www             http://www.foreca.com/Lithuania/Vilnius?details=                                                                        Weather3
 wwww            http://6.pogoda.by/26730                                                                                                Weather4
-z               http://www.kommersant.ru/theme.aspx?ThemesID=782                                                                        Obituaries
+z               https://www.kommersant.ru/theme.aspx?ThemesID=782                                                                        Obituaries
 zz              https://www.theguardian.com/tone/obituaries                                                                             ObituariesGuardian
 
 @Personal
-seb             https://ebankas.seb.lt                                                                                                  SEB
+seb             https://e.seb.lt/mainib/web.p                                                                                           SEB
 
 @Quix
-debug           http://quixapp.com/debug/?r=%r&s=%s&t=%t&d=%d&v=%v                                                                      DebugQuix
-help            http://quixapp.com/help/#%s                                                                                             Help  file
-quix            http://quixapp.com/%s/                                                                                                  Takes you to the specified Quix page
+debug           https://quixapp.com/debug/?r=%r&s=%s&t=%t&d=%d&v=%v                                                                      DebugQuix
+help            https://quixapp.com/help/#%s                                                                                             Help  file
+quix            https://quixapp.com/%s/                                                                                                  Takes you to the specified Quix page
