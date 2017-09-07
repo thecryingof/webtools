@@ -6,18 +6,19 @@
 #kill-defaults
 
 @Open
-§        http://www.%s        Open URL
-a        http://anonymouse.org/cgi-bin/anon-www.cgi/%r        Anonymouse
-aa       http://anonymouse.org/cgi-bin/anon-www.cgi/%s        Anonymouse-with-URL
+§               http://www.%s                                                                                                           OpenURL
+a               http://anonymouse.org/cgi-bin/anon-www.cgi/%r                                                                           Anonymouse
+aa              http://anonymouse.org/cgi-bin/anon-www.cgi/%s                                                                           AnonymouseWithURL
 
-
-@Search: main
+@Search-main
 d               https://duckduckgo.com/?q=%s&kp=-1&kl=us-en&ki=-1&kz=1&kc=1&kb=n&kn=1&kj=w&ku=1&ke=-1&k1=-1&k4=-1                       DuckDuckGo
 x               https://ixquick.com/do/dsearch?query=%s                                                                                 iXquick
 g               https://encrypted.google.com/search?q=%s&tbo=1&pws=0&gl=us&gws_rd=cr                                                    GoogleSearch
 г               https://encrypted.google.com/search?q=%s&tbo=1&pws=0&gl=us&gws_rd=cr                                                    GoogleSearch
 ga              https://encrypted.google.com/advanced_search?q=%s                                                                       GoogleSearchAdvanced
 gs              https://www.google.com/search?q=site:%d%20%s                                                                            GoogleCurrentSiteSearch
+cache           javascript:location.href='http://webcache.googleusercontent.com/search?q=cache:'+window.location.href;                  GoogleCacheSearch
+archive         https://web.archive.org/web/*/%r                                                                                        ArchiveSearch
 def             https://www.google.com/search?q=define:%s                                                                               GoogleDefine
 gtr             https://translate.google.com/#auto/en/%s                                                                                GoogleTranslate
 ud              http://www.urbandictionary.com/define.php?term=%s                                                                       UrbanDict
@@ -31,7 +32,7 @@ img             https://encrypted.google.com/images?q=%s&pws=0                  
 имг             https://encrypted.google.com/images?q=%s&pws=0                                                                          GoogleImageSearch
 himg            https://www.google.com/search?q=%s&as_st=y&hl=en&biw=981&bih=619&site=imghp&tbs=isz:lt,islt:2mp,iar:w,imgo:1&tbm=isch&source=lnt&sa=X&ei=hAimVIScCcupNvKdgtAF&ved=0CBUQpwU&bav=on.2,or.r_cp.r_qf.&bvm=bv.82001339,d.eXY&dpr=2                    GoogleHiResImageSearch
 
-@Search: other
+@Search-other
 wa              http://www.wolframalpha.com/input/?i=%s                                                                                 WolframAlpha
 b               http://bing.com/search?q=%s                                                                                             Bing
 ya              http://www.yandex.ru/yandsearch?text=%s                                                                                 YandexSearch
@@ -56,147 +57,93 @@ ebuk            http://shop.ebay.co.uk/?_nkw=%s&_sacat=See-All-Categories       
 sk              http://www.skelbiu.lt/skelbimai/?keywords=%s&submit=&city[]=0&cities=0                                                  Skelbiu
 wine            http://www.wine-searcher.com/find/%s                                                                                    Wine
 
-@Social Networks
+@Social
 fk              https://www.facebook.com/?sk=h_chr                                                                                      Facebook
-fkp              https://www.facebook.com/browse/fanned_pages/?id=1837791022        Facebook
-tp              javascript:location.href='http://www.tumblr.com/share?v=3&u='+encodeURIComponent(window.location.href)+'&t='+encodeURIComponent(document.title);       Post to Tumblr
-tw              javascript:location.href='http://twitter.com/share?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title);       Post to Twitter
-t               https://twitter.com/%s        Twitter User
-tws             https://twitter.com/search?q=%s        Twitter Search
-lj              http://livejournal.com/users/%s        LJ User
-ljl             %r?format=light        LJ formatter
-sh              http://www.last.fm/user/dsjkvf/shoutbox        Shoutbox
-red             https://www.reddit.com/submit?url=%r        Post to reddit
-
+fkp             https://www.facebook.com/browse/fanned_pages/?id=1837791022                                                             FacebookPages
+t               https://twitter.com/%s                                                                                                  TwitterUser
+tws             https://twitter.com/search?q=%s                                                                                         TwitterSearch
+lj              http://livejournal.com/users/%s                                                                                         LJUser
+ljl             %r?format=light                                                                                                         LJFormatter
+redr            https://www.reddit.com/submit?url=%r                                                                                    PosttoReddit
+tp              javascript:location.href='http://www.tumblr.com/share?v=3&u='+encodeURIComponent(window.location.href)+'&t='+encodeURIComponent(document.title);         PostToTumblr
+tw              javascript:location.href='http://twitter.com/share?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title);          PostToTwitter
 
 @Services
-1               https://mail.google.com/mail/#inbox        GMail
-2               https://www.google.com/calendar/render?tab=mc&gsessionid=qHsaYeoRHPejDuTK7nKAsA        GCal
-4               https://docs.google.com/#all        GDocs
-del                http://delicious.com/save?url=%r&title=%t&v=5&jump=yes&notes=%s        To Delicious
-> bk              https://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk=%r&title=%t&annotation=%s        Save to Google Bookmarks
-5               https://www.google.com/bookmarks/        Google Boookmarks
-55              https://www.google.com/bookmarks/lookup?q=label:pending&hl=en        Pending GBookmarks
 ps              javascript:(function(){ISRIL_H='e17f';PKT_D='getpocket.com';ISRIL_SCRIPT=document.createElement('SCRIPT');ISRIL_SCRIPT.type='text/javascript';ISRIL_SCRIPT.src='http://'+PKT_D+'/b/r.js';document.getElementsByTagName('head')[0].appendChild(ISRIL_SCRIPT)})();        Save to Pocket
 pl              http://getpocket.com/a/queue/list/      Pocket
 
-
 @Downloads
-libb            http://lib.ololo.cc/        Lib1
-lib             http://www.oldmaglib.com/        Lib3
-gbe             http://libgen.org/foreignfiction/?s=%s      LIBGEN Search
-gbi             http://libgen.in/foreignfiction/?s=%s      LIBGEN ALT
-gbf             http://flibusta.net/booksearch?ask=%s       fLIBusta Search
-гбф             http://flibusta.net/booksearch?ask=%s       fLIBusta Search
-tb              http://thepiratebay.org/search/%s        The Pirate Bay Toorents
-kt              http://kat.ph/usearch/%s/       Kat.ph
-bt              http://btdigg.org/search?info_hash=&q=%s        BTDigg
-tor             http://www.torrentz.com/search?q=%s        Torrent Search Additional
-dem             http://www.demonoid.me/files/?category=0&subcategory=All&quality=All&seeded=0&external=2&query=%s&uid=0&sort=        Demonoid Torrents
-rt              http://rutracker.org/forum/tracker.php?nm=%s        Torrents.ru
-f               http://rutor.is/        Torrents1
-ff              http://new-rutor.org/        Torrents1
-free            http://rutor.is/search/0/0/000/0/%s        FreeExchange
-freef           http://new-rutor.org/search/0/0/000/0/%s        FreeExchange
-nl              http://torrent.e2k.ru/browse.php        Torrents2
-yad             https://disk.yandex.ru/        Yandex.Disk
-> up                http://netkups.com/        #Uploads
-up                https://drop.me/        Uploads
-> mins            http://min.us/        Image hosting
-> imgs            http://imageshack.us/        Image hosting 2
-
+lib             http://www.oldmaglib.com/                                                                                               OldMagLib
+gbf             http://flibusta.is/booksearch?ask=%s                                                                                    FlibustaSearch
+гбф             http://flibusta.is/booksearch?ask=%s                                                                                    FlibustaSearch
+tb              http://thepiratebay.org/search/%s                                                                                       ThePirateBay
+rt              http://rutracker.org/forum/tracker.php?nm=%s                                                                            RuTracker
+f               http://rutor.is/                                                                                                        RuTor
+free            http://rutor.is/search/0/0/000/0/%s                                                                                     RuTorSearch
+yad             https://disk.yandex.ru/                                                                                                 YandexDisk
+up              https://drop.me/                                                                                                        DropMeUploads
 
 @Tools
-eye             http://blimb.su/        Eye
-cache           javascript:location.href='http://webcache.googleusercontent.com/search?q=cache:'+window.location.href;          Google Cache
-mkd             javascript:void(prompt("","["+document.title+"]("+location.href+")"));          Markdown
-time            http://everytimezone.com/#2012-8-13,-375,6be            Time Zones
-colors          http://0to255.com/          Color Scheme Picker
-pixlr           https://pixlr.com/          Pixlr Editor
-src             javascript:(function(){var d=window.open('about:blank'),a=d.document;a.write('%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Ctitle%3ELoading%20Source%3C%2Ftitle%3E%3C%2Fhead%3E%3Cbody%3E%3C%2Fbody%3E%3C%2Fhtml%3E');a.close();var b=a.body.appendChild(a.createElement('form'));b.setAttribute('method','post');b.setAttribute('action','http://ole.michelsen.dk/viewsource/?uri='+location.href);var c=b.appendChild(a.createElement('input'));c.setAttribute('type','hidden');c.setAttribute('name','DOM');c.setAttribute('value',encodeURIComponent(document.documentElement.innerHTML));b.submit()})()      View source
-csstoggle       javascript:var%20Lt=document.getElementsByTagName('LINK');for(var%20x=0,ss=[];Lt[x];x++){var%20rel=Lt[x].rel;if(typeof(rel)=='string'&&rel.toLowerCase().indexOf('style')+1){ss[ss.length]=Lt[x];}}for(var%20x=0;ss[x];x++){ss[x].disabled=!ss[x].disabled;}        Toggle css on and off
-font            javascript:(function()%20{if(typeof%20jQuery=='undefined'){var%20jqit=document.createElement('script');jqit.type='text/javascript';jqit.src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js';document.getElementsByTagName('head')[0].appendChild(jqit);}%20_my_script=document.createElement('script');_my_script.type='text/javascript';_my_script.src='http://font-friend.googlecode.com/svn/trunk/font-friend.js';document.getElementsByTagName('head')[0].appendChild(_my_script);})(); Font overlay with <a href="http://somadesign.ca/projects/fontfriend/">FontFriend</a>
-ip            http://infornography.kpoxa.org/personal/s/tmp/devel/python/myip/       Detect IP
-> myip            http://quixapp.com/ip/        Your current IP & homepage.
-geo             http://www.geoiptool.com/en/?IP=%s      Locate IP
-host            http://network-tools.com/default.asp?prog=whois&host=%d        Host info for the current domain.
-whois           http://network-tools.com/default.asp?prog=whois&host=%s        Whois info for the current domain.
-ping            http://network-tools.com/default.asp?prog=ping&host=%s        Ping
-lookup          http://network-tools.com/default.asp?prog=lookup&host=%s        Lookup
-traceroute      http://network-tools.com/default.asp?prog=trace&host=%s        Traceroute
-down            http://downforeveryoneorjustme.com/%d        Is this site downforeveryoneorjustme?
-fake            http://www.fakenamegenerator.com/advanced.php           Create fake identity
-p3p             http://validator.w3.org/p3p/20020128/p3p.pl?uri=%r        Check the P3P policies of the current page.
-ruler           script:http://quixapp.com/js/ruler.js        Shows a ruler that can be used to measure elements.
-xray            script:http://westciv.com/xray/thexray.js        <a href="http://www.westciv.com/xray/">XRAY</a> the current page.
-edit            http://www.aviary.com/html5editor        Aviary Image Editor
-
-
-@Personal
-o               http://infornography.kpoxa.org/personal/s/log/        .log
-p               http://infornography.kpoxa.org/personal/s/log/wp-admin/post-new.php        .log:post
-pd              http://infornography.kpoxa.org/personal/s/log/wp-admin/edit.php?post_status=draft&mode=excerpt        .log:post:Drafts
-pp              http://infornography.kpoxa.org/personal/_s/txt/wp-admin/post-new.php        .txt:post
-ds              http://dsjkvf.livejournal.com/        LJ1
-ff              https://friendfeed.com/dsjkvf       FriendFeed
-ss              http://users.livejournal.com/_s/        LJ2
-s               http://infornography.kpoxa.org/personal/_s/txt/        .txt
-
+time            http://everytimezone.com/#2012-8-13,-375,6be                                                                            TimeZones
+myip            http://infornography.kpoxa.org/personal/s/tmp/devel/python/myip/                                                        DetectIP
+mysp            http://infornography.kpoxa.org/personal/s/tmp/devel/python/myip/myspeed/                                                DetectSpeed
+host            http://network-tools.com/default.asp?prog=whois&host=%d                                                                 HostInfo
+whois           http://network-tools.com/default.asp?prog=whois&host=%s                                                                 Whois
+ping            http://network-tools.com/default.asp?prog=ping&host=%s                                                                  Ping
+lookup          http://network-tools.com/default.asp?prog=lookup&host=%s                                                                Lookup
+traceroute      http://network-tools.com/default.asp?prog=trace&host=%s                                                                 Traceroute
+down            http://downforeveryoneorjustme.com/%d                                                                                   IsSiteDown
+fake            http://www.fakenamegenerator.com/advanced.php                                                                           FakeId
 
 @News
-3               https://feedly.com        Feedly
-33               https://reader.aol.com/     AOL
-#               https://reader.aol.com/     AOL
-e               https://d3.ru/user/endorphin/comments        Dirty
-е               https://d3.ru/user/endorphin/comments        Dirty
-r               https://www.reddit.com/new/     reddit
-rr              https://www.reddit.com/user/alasdairgray/       reddit-me
-rd              https://www.reddit.com/me/m/data/new/       reddit-data
-rf              https://www.reddit.com/me/m/finance/new/        reddit-finance
-ra              https://www.reddit.com/me/m/apps/new/       reddit-apps
-re              https://www.reddit.com/me/m/else/new/       reddit-else
-rv              https://www.reddit.com/me/m/vim/new/       reddit-vim
-til             https://www.reddit.com/r/todayilearned/     TIL
-р               https://www.reddit.com/new/     реддит
-r               https://www.reddit.com/new/     reddit
-рр              https://www.reddit.com/user/alasdairgray/       reddit-me
-рд              https://www.reddit.com/me/m/data/new/       reddit-data
-рф              https://www.reddit.com/me/m/finance/new/        reddit-finance
-ре              https://www.reddit.com/me/m/else/new/       reddit-else
-тил             https://www.reddit.com/r/todayilearned/     TIL
-n                http://infornography.kpoxa.org/personal/s/tmp/klds/        .nws
-н                http://infornography.kpoxa.org/personal/s/tmp/klds/        .nws
-mu              http://manutd.ru        MU
-goc             http://news.bbc.co.uk/sport2/hi/football/default.stm        BBC: Football
-gog             http://m.espn.go.com/soccer/scoreboard?lang=EN&wjb        Results1
-gof             http://livefootball.ws/     LiveFootball.ws
-got             http://livetv.ru/allupcomingsports/1/       LiveTV.ru
-gow             http://www.wiziwig.tv/competition.php?part=sports&discipline=football       Wiziwig
-tv              http://livetv.sx/allupcoming/       TV
-тв              http://livetv.sx/allupcoming/     TV
-grd             http://guardian.gyford.com/        Guardian @ Gyford
-po              http://potsreotizm.livejournal.com/     Potsreotizm
-av              http://avmalgin.livejournal.com/        Malgin
-em              http://emdin.livejournal.com/friends        Emdin's Friends
-ti              http://lj.rossia.org/users/tiphareth/friends        Ti's Friends
-mc              http://john1d0e.livejournal.com/friends     MyMacRu
-mp              http://mypsion.ru/webboard/boardsearch.php?days=2       MyPsionRu
-мп              http://mypsion.ru/webboard/boardsearch.php?days=2       MyPsionRu
-vl              http://vilnius-events.lt/        Vilnius1
-vln             http://www.savaitgalis.lt/lt/pramogos/renginiai/,district.114,city.3,events_times.0,offset.0        Vilnius2
-vlns            http://www.djscene.lt/event/vilnius/        Vilnius3
-w               http://www.yr.no/place/Lithuania/Vilnius/Vilnius/hour_by_hour_detailed.html       Weather
-ww              http://www.meteo.lt/lt_LT/miestas?placeCode=Vilnius      Weather2
-www             http://www.foreca.com/Lithuania/Vilnius?details=      Weather3
-wwww             http://6.pogoda.by/26730        Weather4
-z               http://www.kommersant.ru/theme.aspx?ThemesID=782        Obituaries
+@readers
+3               https://feedly.com                                                                                                      Feedly
+33              https://reader.aol.com/                                                                                                 AOL
+> dirty
+e               https://d3.ru/user/endorphin/comments                                                                                   Dirty
+е               https://d3.ru/user/endorphin/comments                                                                                   Dirty
+> reddit
+rr              https://www.reddit.com/user/alasdairgray/                                                                               reddit-me
+рр              https://www.reddit.com/user/alasdairgray/                                                                               reddit-me
+rd              https://www.reddit.com/me/m/data/new/                                                                                   reddit-data
+рд              https://www.reddit.com/me/m/data/new/                                                                                   reddit-data
+rf              https://www.reddit.com/me/m/finance/new/                                                                                reddit-finance
+рф              https://www.reddit.com/me/m/finance/new/                                                                                reddit-finance
+ra              https://www.reddit.com/me/m/apps/new/                                                                                   reddit-apps
+ра              https://www.reddit.com/me/m/apps/new/                                                                                   reddit-apps
+re              https://www.reddit.com/me/m/else/new/                                                                                   reddit-else
+ре              https://www.reddit.com/me/m/else/new/                                                                                   reddit-else
+rv              https://www.reddit.com/me/m/vim/new/                                                                                    reddit-vim
+рв              https://www.reddit.com/me/m/vim/new/                                                                                    reddit-vim
+til             https://www.reddit.com/r/todayilearned/                                                                                 TIL
+тил             https://www.reddit.com/r/todayilearned/                                                                                 TIL
+> sport
+mu              http://manutd.ru                                                                                                        MU
+goc             http://news.bbc.co.uk/sport2/hi/football/default.stm                                                                    BBCFootball
+gog             http://m.espn.go.com/soccer/scoreboard?lang=EN&wjb                                                                      Results
+tv              http://livetv.sx/allupcoming/                                                                                           TV
+тв              http://livetv.sx/allupcoming/                                                                                           TV
+> other
+n               http://infornography.kpoxa.org/personal/s/tmp/klds/                                                                     KLDS
+н               http://infornography.kpoxa.org/personal/s/tmp/klds/                                                                     KLDS
+grd             http://guardian.gyford.com/                                                                                             Guardian @ Gyford
+ti              http://lj.rossia.org/users/tiphareth/friends                                                                            TipharethWithFriends
+mc              http://john1d0e.livejournal.com/friends                                                                                 MyMacRu
+мц              http://john1d0e.livejournal.com/friends                                                                                 MyMacRu
+mp              http://mypsion.ru/webboard/boardsearch.php?days=2                                                                       MyPsionRu
+мп              http://mypsion.ru/webboard/boardsearch.php?days=2                                                                       MyPsionRu
+vlns            http://vilnius-events.lt/                                                                                               Vilnius
+w               http://www.yr.no/place/Lithuania/Vilnius/Vilnius/hour_by_hour_detailed.html                                             Weather
+ww              http://www.meteo.lt/lt_LT/miestas?placeCode=Vilnius                                                                     Weather2
+www             http://www.foreca.com/Lithuania/Vilnius?details=                                                                        Weather3
+wwww            http://6.pogoda.by/26730                                                                                                Weather4
+z               http://www.kommersant.ru/theme.aspx?ThemesID=782                                                                        Obituaries
+zz              https://www.theguardian.com/tone/obituaries                                                                             ObituariesGuardian
 
-
-@Bookmarks
-h               http://dl.dropbox.com/u/53464175/tools/bookmarks.htm        Open homepage
-seb             https://ebankas.seb.lt      SEB
+@Personal
+seb             https://ebankas.seb.lt                                                                                                  SEB
 
 @Quix
-debug           http://quixapp.com/debug/?r=%r&s=%s&t=%t&d=%d&v=%v        Debug Quix
-help            http://quixapp.com/help/#%s        Help file
-quix            http://quixapp.com/%s/        Takes you to the specified Quix page
+debug           http://quixapp.com/debug/?r=%r&s=%s&t=%t&d=%d&v=%v                                                                      DebugQuix
+help            http://quixapp.com/help/#%s                                                                                             Help  file
+quix            http://quixapp.com/%s/                                                                                                  Takes you to the specified Quix page
