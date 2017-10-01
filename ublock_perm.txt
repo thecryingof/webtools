@@ -1,14 +1,16 @@
-! Tue 21 Mar 2017 | 16:32:58: d3.ru
+! banners @ d3
 d3.ru##.b-sidebar__container
 d3.ru##.b-post-cut_ad_true
-! d3.ru##.b-domain-name__logo
-! d3.ru##.b-post_domain-icon
 d3.ru##.b-promo__placeholder
-! Sun 11 Jun 2017 | 22:23:39: rbc.ru
+
+! banners @ rbc
 rbc.ru##.js-checkad-warning
+
 ! pics
 ||ic.pics.livejournal.com/krylov/*$domain=lj.rossia.org
 ||ic.pics.livejournal.com/dolboeb/*$domain=lj.rossia.org
 ||*.postimg.org/*$domain=lj.rossia.org
+||imgprx.livejournal.net/*$domain=lj.rossia.org
+
 ! miners
 coin–hive.com/*.js
