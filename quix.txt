@@ -39,9 +39,9 @@ ya              https://www.yandex.ru/yandsearch?text=%s                        
 fin             https://finance.yahoo.com/q?s=%s                                                                                        YahooFinance
 fiz             https://finviz.com/quote.ashx?t=%s                                                                                      FinViz
 fit             https://www.tradingview.com/chart/?symbol=%s                                                                            TradingView
+fir             https://quote.rbc.ru/exchanges/overview/                                                                                RBC
 rub             https://www.finam.ru/analysis/profile2C8800000B/?market=45                                                              RussianRouble
 oil             https://www.bloomberg.com/quote/CO1:COM                                                                                 Brent@ICE
-rbc             https://quote.rbc.ru/exchanges/overview/                                                                                RBC
 imdb            https://www.imdb.com/find?s=all&q=%s                                                                                    IMDBSearch
 subs            http://www.opensubtitles.org/en/search2?MovieName=%s&SubLanguageID=eng                                                  OpenSubtitles
 subst           http://www.addic7ed.com/search.php?search=%s                                                                            Addic7ed
