@@ -82,6 +82,8 @@ f               http://rutor.is/                                                
 free            http://rutor.is/search/0/0/000/0/%s                                                                                     RuTorSearch
 yad             https://disk.yandex.ru/                                                                                                 YandexDisk
 up              https://drop.me/                                                                                                        DropMeUploads
+upp             https://openload.co/                                                                                                    OpenLoadUploads
+uppp            https://catbox.moe/                                                                                                     CatBoxUploads
 
 @Tools
 time            http://everytimezone.com/#2012-8-13,-375,6be                                                                            TimeZones
