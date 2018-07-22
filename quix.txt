@@ -87,15 +87,16 @@ uppp            https://catbox.moe/                                             
 
 @Tools
 time            http://everytimezone.com/#2012-8-13,-375,6be                                                                            TimeZones
-myip            https://infornography.kpoxa.org/personal/s/tmp/devel/python/myip/                                                        DetectIP
-mysp            https://infornography.kpoxa.org/personal/s/tmp/devel/python/myip/myspeed/                                                DetectSpeed
-host            https://network-tools.com/default.asp?prog=whois&host=%d                                                                 HostInfo
-whois           https://network-tools.com/default.asp?prog=whois&host=%s                                                                 Whois
-ping            https://network-tools.com/default.asp?prog=ping&host=%s                                                                  Ping
-lookup          https://network-tools.com/default.asp?prog=lookup&host=%s                                                                Lookup
-traceroute      https://network-tools.com/default.asp?prog=trace&host=%s                                                                 Traceroute
+myip            https://infornography.kpoxa.org/personal/s/tmp/devel/python/myip/                                                       DetectIP
+mysp            https://infornography.kpoxa.org/personal/s/tmp/devel/python/myip/myspeed/                                               DetectSpeed
+host            https://network-tools.com/default.asp?prog=whois&host=%d                                                                HostInfo
+whois           https://network-tools.com/default.asp?prog=whois&host=%s                                                                Whois
+ping            https://network-tools.com/default.asp?prog=ping&host=%s                                                                 Ping
+lookup          https://network-tools.com/default.asp?prog=lookup&host=%s                                                               Lookup
+traceroute      https://network-tools.com/default.asp?prog=trace&host=%s                                                                Traceroute
 down            http://downforeveryoneorjustme.com/%d                                                                                   IsSiteDown
 fake            http://www.fakenamegenerator.com/advanced.php                                                                           FakeId
+goh             https://thecryingof.github.io/webtools/tmpmisc/vpn.html                                                                 VPN hotkeys
 
 @News
 @readers
