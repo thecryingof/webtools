@@ -19,3 +19,4 @@ coin–hive.com/*.js
 
 ! reuters
 ||s*.reutersmedia.net/resources_v*/r/$image
+||www.reuters.com/resources/r/*
