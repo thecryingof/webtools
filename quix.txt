@@ -22,8 +22,8 @@ archive         https://web.archive.org/web/*/%r                                
 def             https://www.google.com/search?q=define:%s                                                                               GoogleDefine
 gtr             https://translate.google.com/#auto/en/%s                                                                                GoogleTranslate
 ud              https://www.urbandictionary.com/define.php?term=%s                                                                      UrbanDict
-l               https://www.multitran.ru/c/m.exe?l1=1&l2=2&s=%s                                                                         Lingvo
-л               https://www.multitran.ru/c/m.exe?l1=1&l2=2&s=%s                                                                         Lingvo
+l               https://www.lingvolive.com/ru-ru/translate/ru-en/%s                                                                     Lingvo
+л               https://www.lingvolive.com/ru-ru/translate/ru-en/%s                                                                     Lingvo
 grm             https://gramota.ru/slovari/dic/?word=%s&all=x                                                                           GramotaRu
 maps            https://maps.google.com/maps?q=%s                                                                                       GoogleMapsSearch
 mapl            https://maps.lt/map/default.aspx?q=%s                                                                                   MapsLtSearch
