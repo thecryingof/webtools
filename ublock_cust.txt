@@ -18,5 +18,6 @@ rbc.ru##.js-checkad-warning
 coin–hive.com/*.js
 
 ! reuters
-||s*.reutersmedia.net/resources_v*/r/$image
-||www.reuters.com/resources/r/*
+reuters.com##.stickyDiv
+reuters.com##[src^="/resources/r/?m="]
+reuters.com##[src^="/resources/images/h/.gif/b"]
