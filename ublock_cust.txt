@@ -21,3 +21,17 @@ coin–hive.com/*.js
 reuters.com##.stickyDiv
 reuters.com##[src^="/resources/r/?m="]
 reuters.com##[src^="/resources/images/h/.gif/b"]
+
+! youtube
+youtube.com##.ytp-pause-overlay
+youtube.com##.ytp-scroll-min.ytp-pause-overlay
+youtube.com##.iv-click-target
+youtube.com##.ytp-cards-button
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-ch...
+youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-elem...
+youtube.com##.ytp-ce-expanding-image
