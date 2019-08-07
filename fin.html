@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+    <HEAD>
+        <STYLE>
+            body {
+                background:#666666;
+                color:#999999;
+                font-family:verdana,sans-serif;
+                font-size: 13px;
+            }
+            .container {
+                display: table;
+                height: 100%;
+                position: absolute;
+                overflow: hidden;
+                width: 100%;
+            }
+            .helper {
+                #position: absolute;
+                display: table-cell;
+                vertical-align: middle;
+            }
+            .content {
+                #position: relative;
+                margin: 0 auto;
+                width: 50%;
+                /* border: 3px solid green; */
+                text-align: center;
+                padding: 70px 0;
+            }
+            #activeForm {
+                font-family:Courier;
+                color: #333333;
+                background-color:#666666;
+                border-color:#777777;
+                height:48px;
+                width:100px;
+                font-size:36px;
+            }
+            #hiddenForm {
+                position: absolute;
+                top: -999px;
+                left: -999px;
+                width: 0px;
+                height: 0px;
+            }
+            input {
+                text-transform: uppercase;
+            }
+            input:focus {
+                outline: none !important;
+                border-color: #719ECE;
+                box-shadow: 0 0 10px #666666;
+            }
+            textarea:focus {
+                outline: none !important;
+                border-color: #719ECE;
+                box-shadow: 0 0 10px #666666;
+            }
+            ::-webkit-input-placeholder { /* WebKit browsers */
+                text-transform: none;
+            }
+            :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+                text-transform: none;
+            }
+            ::-moz-placeholder { /* Mozilla Firefox 19+ */
+                text-transform: none;
+            }
+            :-ms-input-placeholder { /* Internet Explorer 10+ */
+                text-transform: none;
+            }
+        </STYLE>
+    </HEAD>
+    <BODY>
+        <div class="container">
+            <div class="helper">
+                <div class="content">
+                    <form method="get" action="https://finviz.com/quote.ashx">
+                        <input type="text" name="t" size="31" maxlength="255" value="" id="activeForm" autofocus />
+                        <input type="submit" value="FIN" id="hiddenForm" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </BODY>
+</HTML>
+
