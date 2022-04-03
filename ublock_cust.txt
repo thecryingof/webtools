@@ -2,7 +2,7 @@
 
 
 ! banners @ d3
-d3.ru##.b-sidebar__container
+# d3.ru##.b-sidebar__container
 d3.ru##.b-post-cut_ad_true
 d3.ru##.b-promo__placeholder
 d3.ru##.b-post-header__sharing.b-sharing
